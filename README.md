@@ -1,0 +1,2 @@
+# pytemplate
+template python project
