@@ -14,6 +14,12 @@ a simple template python project
     * I had to follow [this thread](https://github.com/pypa/setuptools/issues/941) to get it working
     * now anyone can install the  pachage with `$ pip install andyofmelbourne-pytemplate` 
     * to test locally try `$ pip install -e .` (you may need to chown a file)
-
+6. Testing:
+    * write some test functions: see `pytemplate/tests/test_hello.py` for examples
+    * then run the tests with `py.test` (it autodiscovers tests from the file/function names)
+    * make a `tox.ini` file in the top level then run `tox` to test different python versions.
+7. Docs:
+    * see [readthedocs](https://docs.readthedocs.io/en/latest/getting_started.html) to get started
+    * make a docs folder in the top level
 
 
